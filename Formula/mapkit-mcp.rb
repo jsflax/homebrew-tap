@@ -13,13 +13,6 @@ class MapkitMcp < Formula
     bin.install "MapKitMCP" => "mapkit-mcp"
   end
 
-  def post_install
-    claude = which("claude")
-    return unless claude
-
-    system claude, "mcp", "add", "--scope", "user", "mapkit", bin/"mapkit-mcp"
-  end
-
   def caveats
     <<~EOS
       To register with Claude Code manually:
