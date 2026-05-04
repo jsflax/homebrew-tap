@@ -1,9 +1,9 @@
 class Claudecodeirc < Formula
   desc "IRC-style multi-user chat for Claude Code sessions"
   homepage "https://github.com/jsflax/ClaudeCodeIRC"
-  version "0.0.5"
+  version "0.0.6"
   url "https://github.com/jsflax/ClaudeCodeIRC/releases/download/v#{version}/claudecodeirc-darwin-arm64.tar.gz"
-  sha256 "759dd865a5e41d1f44d424e871f1d9889cf6b0b5bdc3572400aeba65846c35c7"
+  sha256 "6bc4605fc51d6fc86e3a1ea6eb4b7a93a4877923e75b36b90c1c2a432776d509"
   license "MIT"
 
   depends_on :macos
